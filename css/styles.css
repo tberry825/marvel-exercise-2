@@ -1,0 +1,94 @@
+body {
+  background: url(https://th.bing.com/th/id/R.9e82e512d90307d6420a9a24ce0d1d97?rik=uGlHpMhKVFpI9A&riu=http%3a%2f%2forig05.deviantart.net%2f6fd1%2ff%2f2008%2f245%2f1%2fa%2f1a31fa4ffd83133d7d9c48906bbff38c.jpg&ehk=tc05cGli2izJsuJNbxQrSHs%2bA8uaAAmSB7KGX%2fzA4fY%3d&risl=&pid=ImgRaw&r=0);
+  /* background: url(https://static.miraheze.org/closinglogosgroupwiki/c/ca/GW417H236.jpg); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-size: 55px;
+  text-shadow: 5px 5px 10px rgb(234, 238, 14);
+  font-family: Tangerines;
+  text-align: center;
+}
+
+#heroName {
+  height: 5vh;
+  width: 75vw;
+  border: solid 3px rgb(209, 226, 61);
+  border-radius: 10px;
+  background-color: rgb(236, 219, 236);
+}
+
+#submit {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(209, 226, 61);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(62, 42, 240, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+#submit:hover {
+  box-shadow: 0px 15px 20px hsla(221, 80%, 50%, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/* style for images */
+img {
+  width: 100%;
+  height: auto;
+}
+
+img:hover {
+  border: 10px solid rgb(226, 80, 61);
+}
+
+#heroDescript {
+  width: 100%;
+  font-size: 10px;
+  color: white;
+}
+
+.cards {
+  background: black;
+  padding: 15px;
+  border: 5px solid rgb(209, 226, 61);
+}
+
+@media only screen and (min-width: 768px) {
+  #heroDescript {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+  }
+
+  .cards {
+    border: 5px solid rgb(209, 226, 61);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cards {
+    width: 20%;
+  }
+}
